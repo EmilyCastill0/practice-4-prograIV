@@ -1,0 +1,12 @@
+{
+  "name": "practice-4-prograiv",
+  "version": "1.0.0",
+  "description": "Aplicacion minima para una practica de CI/CD con GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
