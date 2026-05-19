@@ -20,5 +20,5 @@ jobs:
           script: |
             cd /var/www/miapp
             git pull origin main
-            sudo systemctl restart miapp
-            sudo systemctl status miapp --no-pager
+            sudo -n /usr/bin/systemctl restart miapp
+            sudo -n /usr/bin/systemctl status miapp --no-pager
